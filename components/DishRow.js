@@ -36,10 +36,10 @@ const DishRow = ({id, image, title, description, price}) => {
         >
             <View className="flex-row">
                 <View className="flex-1 pr-2">
-                    <Text className="text-lg mb-1">{title}</Text>
+                    <Text className="text-lg mb-1 capitalize">{title}</Text>
                     <Text className="text-gray-400">{description}</Text>
                     <Text className="text-gray-400 mt-2">
-                        <Currency quantity={price} currency="GBP" />
+                        <Currency quantity={price} currency="USD" />
                     </Text>
                 </View>
 
